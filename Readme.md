@@ -21,6 +21,6 @@ git diff -> Mostra a mudança feita (Sempre utilizar antes de commitar)
 git checkout "Arquivo" -> Vai retornar o arquivo para antes da edição
 git reset HEAD -> Retira o arquivo que esteja no stage
     git reset --soft -> Mata o commit feito, mas o arquivo permace alterado da ultima atualização
-    git reset -mixed -> Mata o commit feito, mas
-    git reset -hard -> Mata o commit, e tudo o que foi feito
+    git reset --mixed -> Mata o commit feito, mas
+    git reset --hard -> Mata o commit, e tudo o que foi feito
     (Escolhe sempre o commit anterior do que deseja retornar!)
