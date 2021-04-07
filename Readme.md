@@ -24,3 +24,6 @@ git reset HEAD -> Retira o arquivo que esteja no stage
     git reset --mixed -> Mata o commit feito, mas antes do arquivo de fato ter alterado
     git reset --hard -> Mata o commit, e tudo o que foi feito
     (Escolhe sempre o commit anterior do que deseja retornar!)
+~/.ssh/ -> Encontrar a key
+cat "key" -> Pegar a key
+    more "key" -> Outra opção para comando acima
